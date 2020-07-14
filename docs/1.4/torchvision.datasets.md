@@ -34,13 +34,15 @@ data_loader = torch.utils.data.DataLoader(imagenet_data,
 *   [SBU](#sbu)
 *   [Flickr](#flickr)
 *   [VOC](#voc)
-*   [Cityscapes]
-*   [SBD]
-*   [USPS]
-*   [Kinetics-400]
-*   [HMDB51]
-*   [UCF101]
-*   [CelebA]
+*   [Cityscapes](#Cityscapes)
+*   [SBD](#SBD)
+*   [USPS](#USPS)
+*   [Kinetics-400](#Kinetics-400)
+*   [HMDB51](#HMDB51)
+*   [UCF101](#UCF101)
+*   [CelebA](#CelebA)    
+
+
 以上数据集的接口基本上很相近。它们至少包括两个公共的参数`transform`和`target_transform`，以便分别对输入和和目标做变换。
 
 ```py
